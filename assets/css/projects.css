@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(103,103,103);
+    background: radial-gradient(circle, rgba(103,103,103,1) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+
+.nav p {
+    font-size: 1.5rem;
+}
+
+.nav {
+    width: 66%;
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+    margin: 2% 0 0 16.8%
+}
+
+.nav-links {
+    width: 30%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+}
+
+.nav-links a:hover {
+    font-weight: bold;
+    transition-duration: 0.2s;
+
+}
+
+.projects {
+    border-style: dotted;
+    border-radius: 50%;
+}
+
+.detail-project-l{
+    width: 90%;
+    height: 50%;
+    margin: 5% 0 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-projet-p {
+    padding: 0px 7px 5px 0px;
+    overflow: auto;
+}
+
+.detail-project-r{
+    width: 90%;
+    height: 50%;
+    margin: 5% 0 0 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.img-project {
+    width: 48%;
+}
+
+.img-cedi-project {
+    margin-left: 17%;
+}
+
+.description-projet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+}
+
+.tittle-project {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.p-project {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.description-projet a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin: 3% 0 2% 40%;
+}
+
+.social a {
+    color: white;
+    font-size: 2rem;
+}
+
+.start-tour {
+    animation: changeColor 2s infinite alternate;
+    background-color: rgb(41, 243, 196);
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 3% 0 0 45%;
+    display: inline-block;
+}
+
+.start-tour:hover {
+    box-shadow: 1px 1px 4px 1px;
+    transition-duration: 0.3s;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: grey;
+    }
+    100% {
+        background-color: black;
+        color: white;
+    }
+}
+
+.insignias {
+    width: 50%;
+    height: 320px;
+    margin: 5% 0 0 25%;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.insignias-cont {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}

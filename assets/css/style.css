@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(103,103,103);
+    background: radial-gradient(circle, rgba(103,103,103,1) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+
+.contain-porfolio {
+    width: 70%;
+    height: 80%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.contain-porfolio p {
+    font-size: 1.5rem;
+}
+
+.nav {
+    display: flex;
+    width: 95%;
+    height: 10%;
+    justify-content: space-between;
+    margin-left: 2.5%;
+}
+
+.nav-links {
+    width: 30%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+}
+
+.nav-links a:hover {
+    font-weight: bold;
+    transition-duration: 0.2s;
+
+}
+
+.home {
+    border-style: dotted;
+    border-radius: 50%;
+}
+
+.facu-img {
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.body-home {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    margin-left: 7%;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.welcome-and-initial-tour, .contain-facu-img{
+    width: 40%;
+    height: 80%;
+}
+
+.contain-facu-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-and-initial-tour p {
+    font-size: 3.5rem;
+    margin-top: 30px;
+}
+
+.start-tour {
+    width: 40%;
+    height: 10%;
+    margin: 20px 0 0 0;
+    animation: changeColor 2s infinite alternate;
+    background-color: rgb(41, 243, 196);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+.start-tour:hover {
+    box-shadow: 1px 1px 4px 1px;
+    transition-duration: 0.3s;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: grey;
+    }
+    100% {
+        background-color: black;
+        color: white;
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.social a {
+    color: white;
+    font-size: 2rem;
+}

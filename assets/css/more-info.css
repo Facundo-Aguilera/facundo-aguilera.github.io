@@ -83,6 +83,30 @@ color: white;
 font-size: 2rem;
 }
 
+#text-mail {
+    padding: 10px 10px;
+}
+
+.mail-name-origin {
+    width: 25em;
+    height: 40px;
+    padding: 2px 2px;
+    margin-left: 5px;
+}
+
+#mail {
+    margin-left: 14px;
+}
+
+#send-form {
+    width: 80px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(175, 175, 175);
+}
+
 @media only screen and (max-width: 450px) {
  
     .contain-porfolio {
